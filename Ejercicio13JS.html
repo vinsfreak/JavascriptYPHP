@@ -1,0 +1,33 @@
+<html>
+<head>
+ <title>Ejercicio13JS</title>
+</head>
+<body>
+ <script language="JavaScript">
+/* 13) Se ingresan tres valores por teclado, si todos son iguales se imprime la suma del primero con el segundo
+y a este resultado se lo multiplica por el tercero. En caso contrario sacar un mensaje que diga que son
+distintos.
+
+*/
+var num1;
+var num2;
+var num3;
+var suma;
+var multiplicacion;
+     num1=parseInt(prompt("Introduce un número"));
+     num2=parseInt(prompt("Introduce un segundo número"));
+     num3=parseInt(prompt("Introduce un tercer número"));
+     suma=num1+num2;
+     multiplicacion=suma*num3;
+     if((num1==num2)&&(num2==num3)&&(num3==num1))
+         {
+             alert(multiplicacion);
+         }
+     else
+         {
+            alert("Los números no son iguales");
+         }
+</script>
+<br />
+</body>
+</html>

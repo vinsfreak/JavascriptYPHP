@@ -1,0 +1,43 @@
+<html>
+<head>
+ <title>Ejercicio10JS</title>
+</head>
+<body>
+ <script language="JavaScript">
+/* 10) Se ingresan tres notas de un alumno, si el promedio es mayor o igual a 6 mostrar un mensaje „bien‟, si
+está entre 4 y 6 'regular', sino 'mal'.
+
+
+*/
+var nota1;
+var nota2;
+var nota3;
+var suma;
+var promedio;
+     nota1=parseInt(prompt("Introduce una nota"));
+     nota2=parseInt(prompt("Introduce una segunda nota"));
+     nota3=parseInt(prompt("Introduce una tercera nota"));
+     suma=nota1+nota2+nota3;
+     promedio=suma/3;
+     
+     if (promedio>=6){
+         
+         alert("Bien");
+     }
+     else{
+         
+         if ((promedio<6) && (promedio>4))
+         {
+             alert("Regular");            
+         }
+         if (promedio<=4)
+         {
+             alert("Mal");            
+         }
+     }
+         
+
+</script>
+<br />
+</body>
+</html>
